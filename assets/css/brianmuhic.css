@@ -11009,6 +11009,13 @@ p {
   background-color: #F85C70;
 }
 
+.line1 {
+  display: block;
+  
+  height: 1.5px;
+  background-color: #F85C70;
+}
+
 .breadcrumb {
   font-size: 0.9rem;
 }
@@ -11610,15 +11617,20 @@ pre .code {
 
 .about-section {
   border-bottom: 1px solid #dee2e6;
+  background-color: #ABBAEA;
+
 }
 
 .about-section .about-card {
   padding: 60px;
   border-right: 1px solid #dee2e6;
+
+
 }
 
 .about-section .about-card:last-child {
   border-right: none;
+  
 }
 
 .contact {
