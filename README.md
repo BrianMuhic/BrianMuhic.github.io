@@ -1,4 +1,5 @@
 # Brian Muhic — Portfolio
 
-Software Engineer for General Dynamics Mission Systems 
+Software Engineer for General Dynamics Mission Systems
+<br> 
 Virginia Tech Computer Science (Magna Cum Laude)
