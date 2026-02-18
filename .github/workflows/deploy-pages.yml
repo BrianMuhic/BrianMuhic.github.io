@@ -33,7 +33,7 @@ jobs:
       # Disable Jekyll so GitHub Pages serves _next (Jekyll ignores underscore-prefixed dirs)
       - run: touch ./out/.nojekyll
 
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: ./out
 
