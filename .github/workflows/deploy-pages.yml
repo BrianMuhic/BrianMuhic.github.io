@@ -30,7 +30,10 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - uses: actions/upload-pages-artifact@3
+      # Disable Jekyll so GitHub Pages serves _next (Jekyll ignores underscore-prefixed dirs)
+      - run: touch ./out/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: ./out
 
